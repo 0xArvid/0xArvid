@@ -45,6 +45,13 @@ class Config:
         # Provider-specifika inställningar
         self.email_providers = {}
         self._load_default_providers()
+        
+        # Email forwarding inställningar
+        self.forward_to_email = None
+        self.forward_from_email = None
+        self.forward_password = None
+        self.forward_smtp_server = None
+        self.enable_forwarding = False
     
     def _load_default_providers(self):
         """Laddar standard e-postleverantörer"""
@@ -115,6 +122,20 @@ class Config:
             self.target_password = args.password
         if args.file:
             self.input_file = args.file
+        
+        # Forwarding inställningar
+        if hasattr(args, 'forward_to') and args.forward_to:
+            self.forward_to_email = args.forward_to
+        if hasattr(args, 'forward_from') and args.forward_from:
+            self.forward_from_email = args.forward_from
+        if hasattr(args, 'forward_password') and args.forward_password:
+            self.forward_password = args.forward_password
+        if hasattr(args, 'forward_smtp') and args.forward_smtp:
+            self.forward_smtp_server = args.forward_smtp
+            
+        # Aktivera forwarding om alla nödvändiga parametrar finns
+        if all([self.forward_to_email, self.forward_from_email, self.forward_password]):
+            self.enable_forwarding = True
     
     def get_provider_config(self, email: str, protocol: str) -> Optional[Dict[str, Any]]:
         """Hämtar konfiguration för specifik e-postleverantör"""

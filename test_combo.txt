@@ -1,0 +1,8 @@
+# Test combo list for Mail Access Checker
+# Format: email:password
+
+abr0503@hotmail.com:Bajskorv56!
+
+# Additional test accounts for demonstration
+test1@example.com:password123
+demo@invalid.com:wrongpass

@@ -49,6 +49,12 @@ Exempel:
     parser.add_argument('--protocol', choices=['imap', 'smtp', 'pop3', 'all'], 
                        default='imap', help='Protokoll att testa')
     
+    # Email forwarding argument
+    parser.add_argument('--forward-to', help='Email att skicka funna resultat till')
+    parser.add_argument('--forward-from', help='Email att skicka från (måste ha SMTP-access)')
+    parser.add_argument('--forward-password', help='Lösenord för forward-from email')
+    parser.add_argument('--forward-smtp', help='SMTP-server (auto-detekteras om ej angiven)')
+    
     args = parser.parse_args()
     
     # Validera argument

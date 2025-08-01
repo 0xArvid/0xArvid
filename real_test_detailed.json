@@ -1,0 +1,12 @@
+[
+  {
+    "email": "abr0503@hotmail.com",
+    "status": "invalid",
+    "accessible": false,
+    "error": "Ogiltiga inloggningsuppgifter: b'LOGIN failed.'",
+    "mailboxes": [],
+    "message_count": 0,
+    "recent_messages": [],
+    "crawl_results": {}
+  }
+]
