@@ -1,0 +1,18 @@
+# Example accounts file for Mail Access Checker
+# Format: email:password
+# Lines starting with # are comments
+
+# Test accounts (these are dummy accounts for testing)
+test1@example.com:password123
+test2@example.com:secret456
+test3@invalid.com:wrongpass
+demo@example.com:demopass
+user@invalid.com:testpass
+
+# Real provider examples (use your own accounts for testing)
+# your.email@gmail.com:your_app_password
+# your.email@outlook.com:your_password
+# your.email@yahoo.com:your_password
+
+# Note: For Gmail, you may need to use App Passwords instead of your regular password
+# Note: Always use test accounts or your own accounts, never unauthorized accounts

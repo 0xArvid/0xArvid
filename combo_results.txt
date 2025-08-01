@@ -1,0 +1,3 @@
+abr0503@hotmail.com:unknown
+test1@example.com:valid
+demo@invalid.com:invalid

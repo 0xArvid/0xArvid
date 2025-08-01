@@ -1,0 +1,15 @@
+# Core dependencies
+PyYAML>=6.0.1
+colorama>=0.4.6
+
+# Optional dependencies for advanced features
+# requests>=2.31.0        # För OAuth och HTTP requests
+# cryptography>=41.0.7    # För encryption utilities
+# tabulate>=0.9.0         # För tabellformatering
+# rich>=13.0.0            # För avancerad terminal output
+
+# Development dependencies (uncomment when needed)
+# pytest>=7.4.0
+# pytest-cov>=4.1.0
+# black>=23.7.0
+# flake8>=6.0.0

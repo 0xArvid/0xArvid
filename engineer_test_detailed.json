@@ -1,0 +1,12 @@
+[
+  {
+    "email": "mikaelb@engineer.com",
+    "status": "invalid",
+    "accessible": false,
+    "error": "Ogiltiga inloggningsuppgifter: b'authentication failed'",
+    "mailboxes": [],
+    "message_count": 0,
+    "recent_messages": [],
+    "crawl_results": {}
+  }
+]

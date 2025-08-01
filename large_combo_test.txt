@@ -1,0 +1,29 @@
+# Large combo test file for Mail Access Checker
+# Format: email:password
+
+# Test accounts (dummy accounts for testing batch processing)
+test1@example.com:password123
+test2@example.com:secret456
+test3@invalid.com:wrongpass
+demo@example.com:demopass
+user@invalid.com:testpass
+batch1@example.com:batch123
+batch2@example.com:batch456
+batch3@invalid.com:batchfail
+batch4@example.com:batch789
+batch5@invalid.com:batchtest
+demo1@example.com:demo123
+demo2@example.com:demo456
+demo3@invalid.com:demofail
+demo4@example.com:demo789
+demo5@invalid.com:demotest
+
+# Additional test accounts
+user1@example.com:user123
+user2@example.com:user456
+user3@invalid.com:userfail
+user4@example.com:user789
+user5@invalid.com:usertest
+
+# Note: All these are test accounts for demonstration
+# Real usage requires valid credentials for legitimate testing only

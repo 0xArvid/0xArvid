@@ -1,0 +1,88 @@
+# Mail Access Checker Configuration File
+
+# General Settings
+timeout: 30
+max_threads: 5
+retry_attempts: 3
+ssl_verify: true
+delay_between_attempts: 1
+
+# User Agent
+user_agent: "Mail-Access-Checker/1.0"
+
+# Default Ports
+default_ports:
+  imap:
+    ssl: 993
+    plain: 143
+  smtp:
+    ssl: 465
+    starttls: 587
+    plain: 25
+  pop3:
+    ssl: 995
+    plain: 110
+
+# Email Provider Configurations
+email_providers:
+  gmail.com:
+    imap:
+      host: imap.gmail.com
+      port: 993
+      ssl: true
+    smtp:
+      host: smtp.gmail.com
+      port: 587
+      tls: true
+  
+  outlook.com:
+    imap:
+      host: outlook.office365.com
+      port: 993
+      ssl: true
+    smtp:
+      host: smtp-mail.outlook.com
+      port: 587
+      tls: true
+  
+  hotmail.com:
+    imap:
+      host: outlook.office365.com
+      port: 993
+      ssl: true
+    smtp:
+      host: smtp-mail.outlook.com
+      port: 587
+      tls: true
+  
+  yahoo.com:
+    imap:
+      host: imap.mail.yahoo.com
+      port: 993
+      ssl: true
+    smtp:
+      host: smtp.mail.yahoo.com
+      port: 587
+      tls: true
+  
+  icloud.com:
+    imap:
+      host: imap.mail.me.com
+      port: 993
+      ssl: true
+    smtp:
+      host: smtp.mail.me.com
+      port: 587
+      tls: true
+
+# Advanced Settings (för framtida användning)
+# proxy_settings:
+#   enabled: false
+#   proxy_list: []
+#   rotation: true
+
+# logging_settings:
+#   log_level: INFO
+#   log_file: logs/mail_checker.log
+#   max_log_size: 10MB
+#   backup_count: 5
