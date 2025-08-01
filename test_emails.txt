@@ -1,0 +1,10 @@
+test@gmail.com
+admin@example.com
+support@microsoft.com
+noreply@github.com
+user@10minutemail.com
+info@google.com
+contact@facebook.com
+help@stackoverflow.com
+sales@shopify.com
+security@twitter.com
