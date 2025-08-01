@@ -156,7 +156,9 @@ class IMAPClient:
             'outlook.com': {'host': 'outlook.office365.com', 'port': 993, 'ssl': True},
             'live.com': {'host': 'outlook.office365.com', 'port': 993, 'ssl': True},
             'gmail.com': {'host': 'imap.gmail.com', 'port': 993, 'ssl': True},
-            'yahoo.com': {'host': 'imap.mail.yahoo.com', 'port': 993, 'ssl': True}
+            'yahoo.com': {'host': 'imap.mail.yahoo.com', 'port': 993, 'ssl': True},
+            'engineer.com': {'host': 'imap.mail.com', 'port': 993, 'ssl': True},
+            'mail.com': {'host': 'imap.mail.com', 'port': 993, 'ssl': True}
         }
         
         if domain in fallback_configs:

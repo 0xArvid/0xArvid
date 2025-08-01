@@ -75,6 +75,14 @@ class Config:
             'icloud.com': {
                 'imap': {'host': 'imap.mail.me.com', 'port': 993, 'ssl': True},
                 'smtp': {'host': 'smtp.mail.me.com', 'port': 587, 'tls': True}
+            },
+            'engineer.com': {
+                'imap': {'host': 'imap.mail.com', 'port': 993, 'ssl': True},
+                'smtp': {'host': 'smtp.mail.com', 'port': 587, 'tls': True}
+            },
+            'mail.com': {
+                'imap': {'host': 'imap.mail.com', 'port': 993, 'ssl': True},
+                'smtp': {'host': 'smtp.mail.com', 'port': 587, 'tls': True}
             }
         }
     
