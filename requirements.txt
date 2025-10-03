@@ -1,0 +1,8 @@
+# Arbetsförmedlingen Job Search Automation
+# Requirements file
+
+# Web automation
+playwright==1.41.0
+
+# Utilities
+python-dateutil==2.8.2

@@ -1,0 +1,20 @@
+{
+  "email": "din.email@exempel.se",
+  "password": "ditt_lösenord_här",
+  "login_required": false,
+  "search_terms": [
+    "Python utvecklare",
+    "Backend utvecklare",
+    "Automation engineer",
+    "Systemutvecklare",
+    "DevOps"
+  ],
+  "location": "Stockholm",
+  "comments": {
+    "email": "Email-adressen kopplad till Comet och ditt konto",
+    "password": "Lösenord för Arbetsförmedlingen (om inloggning krävs)",
+    "login_required": "Sätt till true om inloggning krävs (OBS: BankID kan krävas)",
+    "search_terms": "Lista över sökord för att hitta relevanta jobb",
+    "location": "Plats där du söker jobb (frivilligt)"
+  }
+}
